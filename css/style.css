@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url(../img/image1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+
+
+}
+.intro-image__link a {
+    background-color: #66766ca1;
+    border: 2px solid #66766c;
+    color: #c1b9a2;
+    display: inline-block;
+    font-size: 3rem ;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__link a:hover {
+    transform: scale(1.2)  ;
+    
+}
+
+.inro-text {
+    background-color: #63513d;
+    color: #c1b9a2;;
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+    height: 250px;
+    padding: 0  10rem;
+    
+}
+
+.inro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url(../img/imege3.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+}
+
+.quality-image__link a {
+    background-color: #37373ca7;
+    border: 2px solid #37373c;
+    color: #c1b9a2;
+    display: inline-block;
+    font-size: 3rem ;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.quality-image__link a:hover {
+    transform: scale(1.2)  ;
+
+}
+
+.quality-text {
+    background-color: #866e68;
+    color: #fad0a3;
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+    height: 250px;
+    padding: 0  10rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #37373c;
+    color:#b7bccb ;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color:#b7bccb ;
+    text-decoration: none;
+    
+}
+
+.footer ul li a:hover {
+    transition: all 1.5s ease-in-out;
+   
+    color: rgb(211, 57, 57);
+    
+}
+
+.footer ul li:hover {
+   
+    transition: all 0.3s ease-in-out;
+    
+    transform: scale(1.2)  ;
+}
+
