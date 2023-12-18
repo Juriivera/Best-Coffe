@@ -62,7 +62,7 @@ body {
     background-attachment: fixed;
     background-image: url(../img/imege3.jpeg);
     background-size: cover;
-    background-position: left;
+    background-position-x: 80%;
     height: 600px;
     display: flex ;
     align-items: center ;
