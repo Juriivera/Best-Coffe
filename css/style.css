@@ -91,8 +91,8 @@ body {
     display: flex ;
     align-items: center ;
     justify-content: center;
-    height: 250px;
-    padding: 0  10rem;
+    height: 100%;
+    padding: 3rem  15%;
 }
 
 .quality-text__textbox h3 {
@@ -136,8 +136,8 @@ body {
     display: flex ;
     align-items: center ;
     justify-content: center;
-    height: 250px;
-    padding: 0  10rem;
+    height: 100%;
+    padding: 3rem  15%;
 }
 
 .origin-text__textbox h3 {
@@ -148,7 +148,7 @@ body {
 }    
 
 .footer {
-    height: 200px;
+    height: 100%;
     background-color: #37373c;
     color:#b7bccb ;
     padding-top: 2rem;
