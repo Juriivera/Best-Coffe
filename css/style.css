@@ -46,8 +46,8 @@ body {
     display: flex ;
     align-items: center ;
     justify-content: center;
-    height: 250px;
-    padding: 0  10rem;
+    height: 100%;
+    padding: 3rem  15%;
     
 }
 
